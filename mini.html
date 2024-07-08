@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup/Login Page</title>
+</head>
+<style>
+	body{
+		text-align: center;
+		background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLiFCVSJBZYUTg1R9Ra3F6rS04O9_juz2gvmtK3KC_NIuf7kENPZP5Tcyfz-Lnes5e5-s&usqp=CAU");
+		background-repeat: no-repeat;
+		background-size: 1500px 700px;
+	}
+	h1{
+		color:red;
+	}
+</style>
+<body>
+    
+	<h1>Signup</h1>
+	<form>
+		<table align ="center">
+			<tr>
+				<td><label for="username">Username:</label></td>
+				<td><input type="text" id="username" name="username" required><br><br></td>
+			</tr>
+			<tr>
+				<td><label for="password">Password:</label></td>
+				<td><input type="password" id="password" name="password" required><br><br></td>
+			</tr>
+			<tr>
+				<td><label for="confirm_password">Confirm Password:</label></td>
+				<td><input type="password" id="confirm_password" name="confirm_password" required><br><br></td>
+			</tr>
+			
+		</table>
+		<input type="submit" value="Signup">
+	</form>
+
+	<h1>Login</h1>
+	<form>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" required><br><br>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required><br><br>
+
+		<a href="index.html">Login</a>
+	</form>
+</body>
+</html>
